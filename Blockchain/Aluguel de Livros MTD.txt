@@ -1,0 +1,19 @@
+title Aluguel de Livros 
+
+Leitor-->Autor:Consulta o aluguel de um livro
+Autor->Leitor:Envia preço e prazo do aluguel
+Leitor-->Autor:Solicita o aluguel do livro
+Autor->Autor:Gera um NFT para o aluguel do livro
+Autor->Leitor:Envia o NFT do aluguel
+entity :0.5 Visualizador de Publicações
+
+note over Leitor,Visualizador de Publicações: "O leitor que comprou o NFT pode repassar o NFT para outro leitor, mas apenas um leitor pode usufruir daquele aluguel em uma seção"
+Leitor-->Visualizador de Publicações: Informa NFT de acesso ao livro
+Visualizador de Publicações-->Autor:verifica se NFT é valido
+
+Autor->Visualizador de Publicações:Valida o NFT
+note over Leitor,Autor:É de responsabilidade do Autor verificar a validade de seus aluguéis
+alt  prazo do aluguel expirado?
+Autor->Leitor:Notifica do término do aluguel
+end
+note over Leitor,Autor: A qualquer momento o Leitor pode "realugar" o livro
