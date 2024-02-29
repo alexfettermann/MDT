@@ -1,0 +1,22 @@
+Deploy do contrato para Autor 1 - 0x315b54DA03969f1E60b20c8927CD2f1C9589C099
+	0x315b54DA03969f1E60b20c8927CD2f1C9589C099, "123456789","BK1AUT1"
+	Gerou o contrato 0xF167683EF02D1E5c18D0d3b1C2B660dA94e65f0b - 	https://sepolia.etherscan.io/tx/0xff042f6ccaf6991f7351baeed1c1f543cc7c265b40d514345e0649cc555a31af
+
+Mint de um NFT do contrato 0xF167683EF02D1E5c18D0d3b1C2B660dA94e65f0b para 0x315b54DA03969f1E60b20c8927CD2f1C9589C099 Autor 1 - safeMint
+	Criou NFT id [0] do contrato
+	https://sepolia.etherscan.io/tx/0x8662a399518f8b3e595b1f885561d24d689edf63f49c904c9ecdd50d827ca4af
+
+Mint de um NFT do contrato 0xF167683EF02D1E5c18D0d3b1C2B660dA94e65f0b para 0x315b54DA03969f1E60b20c8927CD2f1C9589C099 Autor 1 - safeMint
+	Criou NFT id [1] do contrato
+	https://sepolia.etherscan.io/tx/0xb686bed5d7c845fdec663fae7f48ab9df1cd210289312327a6fc7065f9d76f39
+
+Importados os dois NFTs via MasterMask para a conta de Autor 1 - 0x315b54DA03969f1E60b20c8927CD2f1C9589C099 - passo alternativo
+
+Execucção do approve no Remix para efeuar a transferencia e da acesso ao NFT [0] do contrato 0xF167683EF02D1E5c18D0d3b1C2B660dA94e65f0b do Autor 1 - 0x315b54DA03969f1E60b20c8927CD2f1C9589C099 para o Leitor 1 - 0x927fBf552F60583B399beF0b7E229C0d98807b58. Para esse passo funcionar o Mask deve estar com a conta do Autor 1 selecionada.
+
+Execucao do safeTransferFrom da NFT 0 da conta do Autor 1 para o Leitor 1
+
+	
+
+
+	
