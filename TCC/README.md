@@ -1,4 +1,5 @@
-# Trabalho final da pós-graduação do MDT - Master in Digital transformatrion da PUC-Rio 2023-2025
+# Trabalho final da pós-graduação do MDT - Master in Digital Transformatrion da PUC-Rio 2023-2025
+Prototipo de um RAG simples
 Professor orientador: Pedro Gomes
 
 ## DEPLOY
